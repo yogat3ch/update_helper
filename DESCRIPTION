@@ -1,0 +1,27 @@
+Package: update_helper
+Title: An Amazing Shiny App
+Version: 0.0.0.9000
+Authors@R: person(given = "firstname", family = "lastname", role
+       = c("aut", "cre"), email = "your@email.com")
+Description: What the package does (one paragraph).
+License: What license is it under?
+Imports: 
+    config,
+    fs,
+    glue,
+    httr,
+    lubridate,
+    pkgload,
+    purrr,
+    rlang,
+    rvest,
+    shiny,
+    stringr,
+    utils,
+    UU,
+    xml2
+Suggests: RSelenium, wordpressr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Remotes: simitpatel/wordpressr, yogat3ch/UU, stla/html2R

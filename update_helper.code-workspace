@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"dartsass.outputFormat": "minified",
+		"dartsass.targetDirectory": "inst/app/www/css"
+	}
+}
