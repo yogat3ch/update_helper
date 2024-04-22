@@ -1,16 +1,18 @@
 Package: update_helper
-Title: An Amazing Shiny App
+Title: Auto-generate an inbox formatted newsletter from a Patapa newsletter Post
 Version: 0.0.0.9000
-Authors@R: person(given = "firstname", family = "lastname", role
-       = c("aut", "cre"), email = "your@email.com")
-Description: What the package does (one paragraph).
+Authors@R: person(given = "Stephen", family = "Holsenbeck", role
+       = c("aut", "cre"), email = "sholsen@alumni.emory.edu")
+Description: The package will scrape content from a new Patapa Update post on the website provided that the sections are labelled with the appropriate classes and login credentials are provided in .Renviron.
 License: What license is it under?
 Imports: 
     config,
     fs,
     glue,
+    golem (>= 0.4.1),
     httr,
     lubridate,
+    OpenMCE (>= 1.0.1),
     pkgload,
     purrr,
     rlang,
@@ -23,5 +25,9 @@ Imports:
 Suggests: RSelenium, wordpressr
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.3
-Remotes: simitpatel/wordpressr, yogat3ch/UU, stla/html2R
+RoxygenNote: 7.3.1
+Remotes: 
+    simitpatel/wordpressr,
+    yogat3ch/UU,
+    stla/html2R,
+    yogat3ch/OpenMCE
